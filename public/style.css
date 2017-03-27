@@ -1,0 +1,12 @@
+p {
+  font-size: 20px;
+  font-family: helvetica;
+}
+
+li {
+  border: solid 2px green;
+}
+
+body {
+  background-color: gray;
+}
