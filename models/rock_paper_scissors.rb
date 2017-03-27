@@ -13,15 +13,16 @@ class RockPaperScissors
     @move2 = gets.chomp
 
     if (@move1 == "rock" && @move2 == "paper") || (@move1 == "paper" && @move2 == "rock")
-      puts "Paper wins!"
+      print "Paper wins!"
     elsif
       (@move1 == "rock" && @move2 == "scissors") || (@move1 == "scissors" && @move2 == "rock")
-      puts "Rock wins!"
+      print "Rock wins!"
     elsif
       (@move1 == "paper" && @move2 == "scissors") || (@move1 == "scissors" && @move2 == "paper")
-      puts "Scissors win!"
+      print "Scissors win!"
     else
-      puts "It's a draw!"
+      print "It's a draw!"
+    end
   end
 
 end
